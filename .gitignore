@@ -1,1 +1,6 @@
-credentials.json
+credential.json
+autoload.php
+*./vendor
+*composer
+*.json
+*.lock
