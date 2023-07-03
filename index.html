@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contas</title>
+</head>
+<body>
+    <form action="insert.php" method="post">
+        Data e hora: <input type="datetime-local" name="dataHora"><br>
+        Nome da loja: <input type="text" name="nomeLoja"><br>
+        Descrição da compra: <input type="text" name="descricaoCompra"><br>
+        Valor da compra: <input type="number" step="0.01" min="0" name="valorCompra"><br>
+        Valor total: <input type="number" step="0.01" min="0" name="valorTotal"><br>
+        Observações: <textarea name="observacoes"></textarea><br>
+        <input type="submit" value="Salvar">
+    </form>
+</body>
+</html>
